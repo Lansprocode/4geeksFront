@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game of Thrones</title>
+	<meta name="author" content="lansPerformance">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/snowstorm.js"></script>
+
+</head>
+<body>
+	
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="menu1">
+	  <div class="container" >
+		<div class="navbar-header" >
+			<buttom type="buttom" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</buttom>
+			<a href="index.html" class="navbar-brand"><strong class="retraso animated fadeInDown">Game of Thrones</strong></a>
+		</div>
+		<div class="navbar-collapse collapse"> 
+			<ul class="nav navbar-nav">
+				<li class="active" id="lol"><a href="index.html"><i id="iconcolor" class="" aria-hidden="true"></i><strong>home</strong></a></li>
+				<li class="" id="lol"><a href="houses.html"><i id="iconcolor"></i><strong>houses</strong></a></li>
+				<li class="" id="lol"><a href="featured.html"><i id="iconcolor"></i><strong>featured</strong></a></li>
+				<li class="" id="lol"><a href="history.html"><i id="iconcolor"></i><strong>history</strong></a></li>
+				<li class="" id="lol"><a href="contact.html"><i id="iconcolor"></i><strong>contact</strong></a></li>
+			</ul>
+				<div class="nav navbar-nav form-inline searchbar">
+					<div class="input-group">
+						<input type="text" class="form-control search" placeholder="Search..." onSubmit="return validarSearch();">
+						<div class="input-group-btn">
+						<button type="submit" class="btn btn-default dale" data-toggle="modal" data-target="#myModal"><i class="glyphicon glyphicon-search"></i></button>
+					</div>
+					</div>
+					
+				</div>
+			 <ul class="nav navbar-nav navbar-right">
+                <li id="lol"><a href="singup.html"><i id="iconcolor" class="" aria-hidden="true"></i><strong>Sign Up</strong></a></li>
+                <button type="button" class="btn btn-info btn-md botonsignin" data-toggle="modal" data-target="#myModal1">Sign In</button>
+	            </ul>
+			  </div>
+		   </div> 	
+
+
+		</nav>  <!-- End Nav -->
+
+
+<!-- Modal -->
+<div id="myModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+			
+		<div class="">
+		<div class="myCarousel1">
+		 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		 	<!-- Indicators -->
+		 	<ol class="carousel-indicators">
+		 		<li data-target="#myCarousel" data-slide-to="0"></li>
+		 		<li data-target="#myCarousel" data-slide-to="1"></li>
+		 		<li data-target="#myCarousel" data-slide-to="2"></li>
+		 		<li data-target="#myCarousel" data-slide-to="3"></li>
+		 		<li data-target="#myCarousel" data-slide-to="4"></li>
+		 		<li data-target="#myCarousel" data-slide-to="5"></li>
+		 		<li data-target="#myCarousel" data-slide-to="6"></li>
+		 		<li data-target="#myCarousel" data-slide-to="7"></li>
+		 	</ol>
+
+		 	<!-- Wrapper for slides -->
+		 	<div class="carousel-inner center-block">
+		 		<div class="item active">
+		 			<img src="img/ned.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+
+		 		<div class="item">
+		 			<img src="img/fondo10.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+
+		 		<div class="item">
+		 			<img src="img/jon2.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+
+		 		<div class="item">
+		 			<img src="img/jonswolf.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+
+		 		<div class="item">
+		 			<img src="img/jonnn.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+
+		 		<div class="item">
+		 			<img src="img/Rob.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+
+		 		<div class="item">
+		 			<img src="img/dragon2.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+
+		 		<div class="item">
+		 			<img src="img/daenerys.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+
+		 		<div class="item">
+		 			<img src="img/daenerys2.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+
+		 		<div class="item">
+		 			<img src="img/mormont.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+
+		 		<div class="item">
+		 			<img src="img/fondo23.jpg" alt="" class="img-responsive center-block">
+		 		</div>
+		 	</div>
+		 	<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+				</a>
+		   </div>
+		 </div>
+		</div>  <!-- End Carousel -->
+
+		<div class="modalone">
+			<div class="container">
+				<div class="row">
+					<!-- Trigger the modal with a button -->
+
+					<!-- Modal -->
+					
+				
+
+				<!-- Modal -->
+				<div id="myModal" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title" id="lol"></h4>
+				      </div>
+				      <div class="modal-body">
+				        <div class="showname">
+							<p class="shownamee">
+								
+							</p>
+						</div>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+		  			</div>
+				</div>
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		
+			<br>
+		<div class="presentation">
+			<div class="container">
+				<div class="row">
+					<h1 class="retraso animated fadeInDown">Game Of Thrones</h1>
+					<div class="parrafo1">
+						<p>
+							Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss. It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels, the first of which is A Game of Thrones. It is filmed in Belfast and elsewhere in the United Kingdom, Canada, Croatia, Iceland, Malta, Morocco, Spain, and the United States. The series premiered on HBO in the United States on April 17, 2011, and its seventh season ended on August 27, 2017. The series will conclude with its eighth season premiering either in 2018 or 2019
+						</p>
+						<br>
+						<p>
+							Set on the fictional continents of Westeros and Essos, Game of Thrones has several plot lines and a large ensemble cast but centers on three primary story arcs. The first story arc centers on the Iron Throne of the Seven Kingdoms and follows a web of alliances and conflicts among the dynastic noble families either vying to claim the throne or fighting for independence from the throne. The second story arc focuses on the last descendant of the realm's deposed ruling dynasty, exiled and plotting a return to the throne. The third story arc centers on the longstanding brotherhood charged with defending the realm against the ancient threats of the fierce peoples and legendary creatures that lie far north, and an impending winter that threatens the realm.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		 <div class="header2">
+		 	<div class="container">
+		 		<div class="row">
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		 				<h2>Daenerys Targaryen</h2>
+		 				<p>
+		 				Daenerys is the only daughter and youngest child of King Aerys II Targaryen, the "Mad King", and his sister-wife, Rhaella. Her father died during the Sack of King's Landing, before she was even born. The usurper Robert Baratheon installed himself as king, having defeated Aerys in the conquest known as Robert's Rebellion. Her pregnant mother and brother Viserys, fled to the island of Dragonstone, the ancestral home of House Targaryen, to escape Robert. Daenerys's brother Rhaegar Targaryen was killed in the war by Robert. The forces of House Lannister murdered Rhaegar's wife, Elia Martell, and their children, Rhaenys and Aegon, during the Sack of King's Landing.</p>
+		 				<br>
+		 				<p>
+		 				Daenerys is polite and well-spoken, but filled with quiet determination. She used to be cowed by her brother's ambitions and his occasional cruel rages, but her time amongst the Dothraki has taught her pride, confidence and skills of command. She is still somewhat naive of the world due to being young and living her life as an exile (with only her petulant brother to rely on for knowledge), but she is intelligent and quick to understand now that she is free to pursue her own path.
+		 				</p>
+		 			</div>
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		 				<img src="img/daenerysss.png" alt="">
+		 				<br><br>
+		 				<figcaption>
+		 					"I spent my life in foreign lands. So many men have tried to kill me, I don't remember all their names. I have been sold like a broodmare. I've been chained and betrayed, raped and defiled. Do you know what kept me standing through all those years in exile? Faith. Not in any gods, not in myths and legends. In myself. In Daenerys Targaryen. The world hadn't seen a dragon in centuries until my children were born. The Dothraki hadn't crossed the sea, any sea. They did for me. I was born to rule the Seven Kingdoms, and I will."
+		 				</figcaption>
+		 			</div>
+		 		</div>
+					<br>
+		 		<div class="row">
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		 				<img src="img/jonprofile.png" alt="">
+		 				<br><br>
+		 				<figcaption>
+		 					Bran Stark: "He's never been a bastard. He's the heir to the Iron Throne."
+		 				</figcaption>
+		 			</div>
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		 				<h2>Jon Snow</h2>
+		 				<p>
+		 					Jon Snow, born Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone. From infancy, Jon is presented as the bastard son of Lord Eddard Stark, Lyanna's brother, and raised by Eddard alongside his lawful children at Winterfell but his true parentage is kept secret from everyone, including Jon himself. In order to escape his bastard status, Jon joins the Night's Watch and is eventually chosen as Lord Commander. However, he is later murdered in a mutiny and resurrected by the Red Priestess Melisandre. Freed from his Night's Watch vows, Jon joins his cousin, Sansa Stark, in building an army and together they retake Winterfell from House Bolton, restoring House Stark's dominion over the North with Jon being declared the new King in the North. However, after successfully capturing a wight and presenting it to the Lannisters as proof that the Army of the Dead are real, Jon pledges himself and his army to Daenerys Targaryen, Rhaegar's sister, and steps down as King of the North.
+		 				</p>
+		 			</div>
+		 		</div>
+		 		<br>
+		 		<div class="row">
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		 				<h2>Cersie Lannister</h2>
+		 				<p>
+		 					Queen Cersei I Lannister is the widow of King Robert Baratheon and Queen of the Seven Kingdoms. She is the daughter of Lord Tywin Lannister, twin sister of Jaime Lannister and elder sister of Tyrion Lannister. She has an incestuous relationship with Jaime, who is secretly the father of her three children, Joffrey, Myrcella and Tommen.
+							<br>
+							After the assassinations of Joffrey and Myrcella and Tommen's suicide in the wake of the destruction of the Great Sept of Baelor, Cersei assumed the throne under the name of Cersei of the House Lannister, the First of Her Name, Queen of the Andals and the First Men, Protector of the Seven Kingdoms. 
+		 				</p>
+		 			</div>
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		 				<img src="profiles/cersie2.png" alt="">
+		 				<br><br>
+		 				<figcaption>
+		 					"When you play the game of thrones, you win or you die. There is no middle ground."
+		 				</figcaption>
+		 			</div>
+		 		</div>
+		 		<br>
+		 		<div class="row">
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		 				<img src="profiles/Jaime.jpg" alt="">
+		 				<br><br>	
+		 				<figcaption>
+		 					"There are no men like me. Only me."
+		 				</figcaption>
+		 			</div>
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		 				<h2>Ser Jaimen Lannister</h2>
+		 				<p>
+		 					Ser Jaime Lannister is the eldest son of Tywin, younger twin brother of Cersei, and older brother of Tyrion Lannister. He is involved in an incestuous relationship with Cersei, and unknown to most, he is the biological father of her three children, Joffrey, Myrcella, and Tommen.
+		 					<br>
+		 					Jaime previously served in the Kingsguard of Aerys Targaryen, known as the Mad King, before infamously backstabbing him during the Sack of King's Landing, earning Jaime the nickname of the Kingslayer. He continued to serve in the Kingsguard of Robert Baratheon, and as Lord Commander for Robert's alleged sons Joffrey and Tommen. However, a confrontation with the Faith of the Seven led to his dismissal from the sworn order.
+		 					<br>
+		 					With Cersei's ascension to the Iron Throne and in light of the death of their uncle, Ser Kevan Lannister, Jaime was appointed as the new commander of the Lannister armies. However, he left his position to honor and help the North face the White Walkers after he learned that Cersei and Euron Greyjoy plot to dishonor the truce between the Iron Throne and the alliance of House Targaryen and House Stark.
+		 				</p>
+		 				
+		 			</div>
+		 		</div>
+		 		<br>
+		 		<div class="row">
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		 				<h2>Tyrion Lannister</h2>
+		 				<p>
+		 					Lord Tyrion Lannister is the youngest child of Lord Tywin Lannister and younger brother of Cersei and Jaime Lannister. A dwarf, he uses his wit and intellect to overcome the prejudice he faces.
+		 					<br>
+		 					His abduction by Catelyn Stark for a crime he did not commit serves as one of the catalysts of the War of the Five Kings. After escaping his captors, Tyrion is appointed by his father as acting Hand of the King to Joffrey Baratheon and successfully defends King's Landing against Stannis Baratheon at the Battle of the Blackwater, after which he is stripped of his power, demoted to Master of Coin and eventually framed for Joffrey's murder. After his champion, Oberyn Martell, dies in Tyrion's trial by combat, Tyrion flees to Essos with help from Jaime and Varys after murdering his father.
+		 					<br>
+		 					In the east, he is captured by Jorah Mormont and taken to Daenerys Targaryen in Meereen, whom Varys had intended for Tyrion to meet anyway. Daenerys decides to enlist his help in reclaiming the Iron Throne. For his loyalty and service, Tyrion is named as Hand of the Queen to Daenerys before they set sail for Westeros with her new army and allies, ready to advise her when they reach her ancestral home of Dragonstone, where he acts as her strategist during her invasion of Westeros.
+		 				</p>
+		 			</div>
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		 				<img src="profiles/tyrion.jpg" alt="">
+		 				<br><br>
+		 				<figcaption>
+		 					"Oh, yes I am! I've been on trial for that my entire life!"
+		 				</figcaption>
+		 			</div>
+		 		</div>
+
+		 		<br>
+		 		<div class="row">
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
+		 		</div>
+		 		<br>
+		 		<div class="row">
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
+		 		</div>
+		 		<br>
+		 		<div class="row">
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
+		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
+		 		</div>
+		 	</div>
+		 </div>
+
+		 <div id="contact" class="contact">
+            <div class="container">
+              <div class="row">
+              	<form action="#" name="formulario" id="formulario" method="post" onSubmit="return validarFormulario();">
+                <h2>SAY HELLO</h2>
+                <p>For more entrataining you can contact to us and to receive all the information</p>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <input type="text" class="form-control" aria-describedby="addon1" placeholder="Full Name" id="nombre">
+                  </div>
+
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <input type="email" class="form-control" aria-describedby="addon1" placeholder="Email Addres" id="email">
+                  </div>
+
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <input type="number" class="form-control" aria-describedby="addon1" placeholder="Phone Number" id="telefono">
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div class="input-group">
+                    <textarea name="" id="mensaje" cols="80" rows="6" class="form-control"></textarea>
+                    <button type="button" class="btn btn-lg" id="enviar" name="enviar">Submit Your Message</button>
+                  </div>
+                </div>
+               </form>
+              </div>
+            </div>
+          </div> 
+         	 <div id="copyright">
+				<p>&copy; Copyright Supereight Studio Ltd. 2016-2017. · All rights reserved. Registered in Venezuela · Agency piso 4</p>
+		  	</div>
+		
+		<!--<EMBED SRC="music.mp3" AUTOSTART=true LOOP=true VOLUME="80" WIDTH="0" HEIGHT="0">-->
+
+	
+	 
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
