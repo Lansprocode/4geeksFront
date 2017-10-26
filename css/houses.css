@@ -61,6 +61,30 @@ header {
   animation-delay: 4s;
 }
 
+.retraso5{
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.retraso6{
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.retraso7{
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  animation-delay: 7s;
+}
+
+.retraso8{
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  animation-delay: 8s;
+}
+
 /* Houses */ 
 
 .title p:hover {
