@@ -25,7 +25,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</buttom>
-			<a href="index.html" class="navbar-brand"><strong class="retraso animated fadeInDown">Game of Thrones</strong></a>
+			<a href="index.html" class="navbar-brand logo"><strong class=" retraso animated fadeInDown"><img src="img/gotlogo.png" class="logo" alt=""></strong></a>
 		</div>
 		<div class="navbar-collapse collapse"> 
 			<ul class="nav navbar-nav">
@@ -45,39 +45,158 @@
 					
 				</div>
 			 <ul class="nav navbar-nav navbar-right">
-                <button type="button" class="btn btn-info btn-md botonsignin">Sign Up</button>
+                <button type="button" class="btn btn-info btn-md botonsignin" data-toggle="modal" data-target="#myModal2">Sign Up</button>
                 <button type="button" class="btn btn-info btn-md botonsignin" data-toggle="modal" data-target="#myModal1">Sign In</button>
 	            </ul>
 			  </div>
 		   </div> 	
-
-
 		</nav>  <!-- End Nav -->
 
+		<div class="parallax">
+			
+		</div>
 
-<!-- Modal -->
-<div id="myModal1" class="modal fade" role="dialog">
-  <div class="modal-dialog">
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-        <p>Some text in the modal.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
+			<!-- Modal Sign In -->
+			<div id="myModal1" class="modal fade col-lg-12 col-md-12 col-sm-12 col-xs-12" role="dialog">
+			  <div class="modal-dialog">
 
-  </div>
-</div>
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">Sign In</h4>
+			      </div>
+			      <div class="modal-body">
+			        
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+
+			  </div>
+			</div> <!-- End modal sign in -->
+
+			<!-- Modal Sign Up -->
+			<div id="myModal2" class="modal fade col-lg-12 col-md-12 col-sm-12 col-xs-12" role="dialog">
+			  <div class="modal-dialog">
+
+			    <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">Sign Up</h4>
+			      </div>
+			      <div class="modal-body">
+			        <form name="formulario" class="form-horizontal" action="#" method="post" id="formulario" onSubmit="return validar();">
+						    <div class="form-group">
+						        <label class="control-label col-xs-3">Email:</label>
+						        <div class="col-xs-9">
+						            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required="">
+						        </div>
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label col-xs-3">Password:</label>
+						        <div class="col-xs-9">
+						            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required="">
+						        </div>
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label col-xs-3">Confirm Password:</label>
+						        <div class="col-xs-9">
+						            <input type="password" class="form-control" id="cpass" placeholder="Confirm Password" required="">
+						        </div>
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label col-xs-3">Name:</label>
+						        <div class="col-xs-9">
+						            <input type="text" class="form-control" placeholder="Name" id="name" required="">
+						        </div>
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label col-xs-3">Last name:</label>
+						        <div class="col-xs-9">
+						            <input type="text" class="form-control" placeholder="Last name" id="lastname" required="">
+						        </div>
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label col-xs-3" >Cellphone:</label>
+						        <div class="col-xs-9">
+						            <input type="tel" class="form-control" placeholder="Cellphone" id="cellphone" required="">
+						        </div>
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label col-xs-3">Birth:</label>
+						        <div class="col-xs-3">
+						            <select class="form-control">
+						                <option>Day</option>
+						            </select>
+						        </div>
+						        <div class="col-xs-3">
+						            <select class="form-control">
+						                <option>Month</option>
+						            </select>
+						        </div>
+						        <div class="col-xs-3">
+						            <select class="form-control">
+						                <option>Year</option>
+						                <option value="">2001</option>
+						            </select>
+						        </div>
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label col-xs-3">Address:</label>
+						        <div class="col-xs-9">
+						            <textarea rows="3" class="form-control textarea1" placeholder="Address" id="textarea"></textarea>
+						        </div>
+						    </div>
+						    <div class="form-group">
+						        <label class="control-label col-xs-3">Gender:</label>
+						        <div class="col-xs-2">
+						            <label class="radio-inline">
+						                <input type="radio" name="genderRadios" value="male"> Male
+						            </label>
+						        </div>
+						        <div class="col-xs-2">
+						            <label class="radio-inline">
+						                <input type="radio" name="genderRadios" value="female"> Famele
+						            </label>
+						        </div>
+						    </div>
+						    <div class="form-group">
+						        <div class="col-xs-offset-3 col-xs-9">
+						            <label class="checkbox-inline">
+						                <input type="checkbox" value="news"> Send Noticies.
+						            </label>
+						        </div>
+						    </div>
+						    <div class="form-group">
+						        <div class="col-xs-offset-3 col-xs-9">
+						            <label class="checkbox-inline">
+						                <input type="checkbox" value="agree" required="">  Accept <a href="#" id="checkbox">Terms and Conditions</a>.
+						            </label>
+						        </div>
+						    </div>
+						    <br>
+						    <div class="form-group">
+						        <div class="col-xs-offset-3 col-xs-9">
+						            <input type="submit" id="onesend" class="btn btn-primary" value="Send">
+						            <input type="reset" class="btn btn-default" value="Clean">
+						        </div>
+						    </div>
+					</form>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+
+			  </div>
+			</div> <!-- End modal sign up -->
 
 			
-		<div class="">
+		<div class="animated slideInRight">
 		<div class="myCarousel1">
 		 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 		 	<!-- Indicators -->
@@ -154,16 +273,8 @@
 		<div class="modalone">
 			<div class="container">
 				<div class="row">
-					<!-- Trigger the modal with a button -->
-
-					<!-- Modal -->
-					
-				
-
-				<!-- Modal -->
 				<div id="myModal" class="modal fade" role="dialog">
 				  <div class="modal-dialog">
-
 				    <!-- Modal content-->
 				    <div class="modal-content">
 				      <div class="modal-header">
@@ -173,7 +284,6 @@
 				      <div class="modal-body">
 				        <div class="showname">
 							<p class="shownamee">
-								
 							</p>
 						</div>
 				      </div>
@@ -181,17 +291,14 @@
 				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				      </div>
 				    </div>
-
 		  			</div>
 				</div>
 				</div>
 			</div>
-		</div>
+		</div> <!-- End modal comments -->
 
 		<br>
-
-		
-			<br>
+		<br>
 		<div class="presentation">
 			<div class="container">
 				<div class="row">
@@ -209,119 +316,7 @@
 			</div>
 		</div>
 
-		 <div class="header2">
-		 	<div class="container">
-		 		<div class="row">
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		 				<h2>Daenerys Targaryen</h2>
-		 				<p>
-		 				Daenerys is the only daughter and youngest child of King Aerys II Targaryen, the "Mad King", and his sister-wife, Rhaella. Her father died during the Sack of King's Landing, before she was even born. The usurper Robert Baratheon installed himself as king, having defeated Aerys in the conquest known as Robert's Rebellion. Her pregnant mother and brother Viserys, fled to the island of Dragonstone, the ancestral home of House Targaryen, to escape Robert. Daenerys's brother Rhaegar Targaryen was killed in the war by Robert. The forces of House Lannister murdered Rhaegar's wife, Elia Martell, and their children, Rhaenys and Aegon, during the Sack of King's Landing.</p>
-		 				<br>
-		 				<p>
-		 				Daenerys is polite and well-spoken, but filled with quiet determination. She used to be cowed by her brother's ambitions and his occasional cruel rages, but her time amongst the Dothraki has taught her pride, confidence and skills of command. She is still somewhat naive of the world due to being young and living her life as an exile (with only her petulant brother to rely on for knowledge), but she is intelligent and quick to understand now that she is free to pursue her own path.
-		 				</p>
-		 			</div>
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		 				<img src="img/daenerysss.png" alt="">
-		 				<br><br>
-		 				<figcaption>
-		 					"I spent my life in foreign lands. So many men have tried to kill me, I don't remember all their names. I have been sold like a broodmare. I've been chained and betrayed, raped and defiled. Do you know what kept me standing through all those years in exile? Faith. Not in any gods, not in myths and legends. In myself. In Daenerys Targaryen. The world hadn't seen a dragon in centuries until my children were born. The Dothraki hadn't crossed the sea, any sea. They did for me. I was born to rule the Seven Kingdoms, and I will."
-		 				</figcaption>
-		 			</div>
-		 		</div>
-					<br>
-		 		<div class="row">
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		 				<img src="img/jonprofile.png" alt="">
-		 				<br><br>
-		 				<figcaption>
-		 					Bran Stark: "He's never been a bastard. He's the heir to the Iron Throne."
-		 				</figcaption>
-		 			</div>
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		 				<h2>Jon Snow</h2>
-		 				<p>
-		 					Jon Snow, born Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone. From infancy, Jon is presented as the bastard son of Lord Eddard Stark, Lyanna's brother, and raised by Eddard alongside his lawful children at Winterfell but his true parentage is kept secret from everyone, including Jon himself. In order to escape his bastard status, Jon joins the Night's Watch and is eventually chosen as Lord Commander. However, he is later murdered in a mutiny and resurrected by the Red Priestess Melisandre. Freed from his Night's Watch vows, Jon joins his cousin, Sansa Stark, in building an army and together they retake Winterfell from House Bolton, restoring House Stark's dominion over the North with Jon being declared the new King in the North. However, after successfully capturing a wight and presenting it to the Lannisters as proof that the Army of the Dead are real, Jon pledges himself and his army to Daenerys Targaryen, Rhaegar's sister, and steps down as King of the North.
-		 				</p>
-		 			</div>
-		 		</div>
-		 		<br>
-		 		<div class="row">
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		 				<h2>Cersie Lannister</h2>
-		 				<p>
-		 					Queen Cersei I Lannister is the widow of King Robert Baratheon and Queen of the Seven Kingdoms. She is the daughter of Lord Tywin Lannister, twin sister of Jaime Lannister and elder sister of Tyrion Lannister. She has an incestuous relationship with Jaime, who is secretly the father of her three children, Joffrey, Myrcella and Tommen.
-							<br>
-							After the assassinations of Joffrey and Myrcella and Tommen's suicide in the wake of the destruction of the Great Sept of Baelor, Cersei assumed the throne under the name of Cersei of the House Lannister, the First of Her Name, Queen of the Andals and the First Men, Protector of the Seven Kingdoms. 
-		 				</p>
-		 			</div>
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		 				<img src="profiles/cersie2.png" alt="">
-		 				<br><br>
-		 				<figcaption>
-		 					"When you play the game of thrones, you win or you die. There is no middle ground."
-		 				</figcaption>
-		 			</div>
-		 		</div>
-		 		<br>
-		 		<div class="row">
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		 				<img src="profiles/Jaime.jpg" alt="">
-		 				<br><br>	
-		 				<figcaption>
-		 					"There are no men like me. Only me."
-		 				</figcaption>
-		 			</div>
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		 				<h2>Ser Jaimen Lannister</h2>
-		 				<p>
-		 					Ser Jaime Lannister is the eldest son of Tywin, younger twin brother of Cersei, and older brother of Tyrion Lannister. He is involved in an incestuous relationship with Cersei, and unknown to most, he is the biological father of her three children, Joffrey, Myrcella, and Tommen.
-		 					<br>
-		 					Jaime previously served in the Kingsguard of Aerys Targaryen, known as the Mad King, before infamously backstabbing him during the Sack of King's Landing, earning Jaime the nickname of the Kingslayer. He continued to serve in the Kingsguard of Robert Baratheon, and as Lord Commander for Robert's alleged sons Joffrey and Tommen. However, a confrontation with the Faith of the Seven led to his dismissal from the sworn order.
-		 					<br>
-		 					With Cersei's ascension to the Iron Throne and in light of the death of their uncle, Ser Kevan Lannister, Jaime was appointed as the new commander of the Lannister armies. However, he left his position to honor and help the North face the White Walkers after he learned that Cersei and Euron Greyjoy plot to dishonor the truce between the Iron Throne and the alliance of House Targaryen and House Stark.
-		 				</p>
-		 				
-		 			</div>
-		 		</div>
-		 		<br>
-		 		<div class="row">
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		 				<h2>Tyrion Lannister</h2>
-		 				<p>
-		 					Lord Tyrion Lannister is the youngest child of Lord Tywin Lannister and younger brother of Cersei and Jaime Lannister. A dwarf, he uses his wit and intellect to overcome the prejudice he faces.
-		 					<br>
-		 					His abduction by Catelyn Stark for a crime he did not commit serves as one of the catalysts of the War of the Five Kings. After escaping his captors, Tyrion is appointed by his father as acting Hand of the King to Joffrey Baratheon and successfully defends King's Landing against Stannis Baratheon at the Battle of the Blackwater, after which he is stripped of his power, demoted to Master of Coin and eventually framed for Joffrey's murder. After his champion, Oberyn Martell, dies in Tyrion's trial by combat, Tyrion flees to Essos with help from Jaime and Varys after murdering his father.
-		 					<br>
-		 					In the east, he is captured by Jorah Mormont and taken to Daenerys Targaryen in Meereen, whom Varys had intended for Tyrion to meet anyway. Daenerys decides to enlist his help in reclaiming the Iron Throne. For his loyalty and service, Tyrion is named as Hand of the Queen to Daenerys before they set sail for Westeros with her new army and allies, ready to advise her when they reach her ancestral home of Dragonstone, where he acts as her strategist during her invasion of Westeros.
-		 				</p>
-		 			</div>
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-		 				<img src="profiles/tyrion.jpg" alt="">
-		 				<br><br>
-		 				<figcaption>
-		 					"Oh, yes I am! I've been on trial for that my entire life!"
-		 				</figcaption>
-		 			</div>
-		 		</div>
-
-		 		<br>
-		 		<div class="row">
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
-		 		</div>
-		 		<br>
-		 		<div class="row">
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
-		 		</div>
-		 		<br>
-		 		<div class="row">
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
-		 			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
-		 		</div>
-		 	</div>
-		 </div>
+		 
 
 		 <div id="contact" class="contact">
             <div class="container">

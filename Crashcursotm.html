@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>newPractice</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/newpractice.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  </head>
+  <body>
+
+  <div id="contact" class="contact">
+       <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <form action="#" name="formulario" id="formulario" method="get" onSubmit="return validarFormulario();">
+                  <h2>SAY HELLO</h2>
+                  <p>For more entrataining you can contact to us and to receive all the information</p>
+               <div class="">
+                    <div class="input-group input-group-lg">
+                      <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+                      <input type="text" class="form-control" aria-describedby="addon1" placeholder="Full Name" id="nombre">
+                    </div>
+
+                    <div class="input-group input-group-lg">
+                      <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                      <input type="email" class="form-control" aria-describedby="addon1" placeholder="Email Addres" id="email">
+                    </div>
+
+                    <div class="input-group input-group-lg">
+                      <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                      <input type="number" class="form-control" aria-describedby="addon1" placeholder="Phone Number" id="telefono">
+                    </div>
+                </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="input-group">
+                      <textarea name="" id="mensaje" cols="80" rows="6" class="form-control"></textarea>
+                      <button type="button" class="btn btn-lg" id="enviar" name="enviar">Submit Your Message</button>
+                    </div>
+                 </div>
+             </form>
+            </div>
+          </div>
+        </div>
+       </div>
+
+    
+
+       <div class="footer" id="footer">
+        <div class="container">
+          <div class="row">
+           <div class="col-lg-4 col-md-4 col-xs-12">
+            <form action="#" method="get">
+              <h4>Contact Us</h4>
+              <p><i class="fa fa-home" aria-hidden="true"></i> 111 Main Street, Washington DC, 22222</p>
+              <p><i class="fa fa-envelope" aria-hidden="true"></i>  lansperformance@gmail.com</p>
+              <p><i class="fa fa-phone" aria-hidden="true"></i > +58 414 6707443</p>
+              <p><i class="fa fa-globe" aria-hidden="true"></i> www.lansperformace.com</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+               <h4>About</h4>
+               <p><i class="fa fa-square-o" aria-hidden="true"></i> About Us</p>
+               <p><i class="fa fa-square-o" aria-hidden="true"></i> Privacy</p>
+               <p><i class="fa fa-square-o" aria-hidden="true"></i> Term & Condition</p>
+             </div>
+             <div class="col-lg-4 col-md-4 col-xs-12">
+                 <h4>Stay in touch</h4>
+                 <a href=""><i class=" socialreds social fa fa-facebook" aria-hidden="true"></i></a>
+                 <a href=""><i class=" socialreds social fa fa-twitter" aria-hidden="true"></i></a>
+                 <a href=""><i class=" socialreds social fa fa-instagram" aria-hidden="true"></i></a>
+                 <a href=""><i class=" socialreds social fa fa-linkedin aria-hidden="true"></i></a>
+                 <a href=""><i class=" socialreds social fa fa-pinterest" aria-hidden="true"></i></a>
+                 <a href=""><i class=" socialreds social fa fa-youtube" aria-hidden="true"></i></a>
+                 <a href=""><i class=" socialreds social fa fa-github" aria-hidden="true"></i></a>
+                 <br>
+                 <input type="email" placeholder="Subscribe For Updates">
+                 <button type="submit" class="btn btn-success">Subscribe</button>
+              </form>
+             </div>
+           </div>
+          </div>
+        </div>
+
+      <div id="copyright" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <p>&copy; Copyright Supereight Studio Ltd. 2016-2017. · All rights reserved. Registered in Venezuela · Agency piso 4</p>
+        </div>
+
+<style>
+  * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+  background: url('../img/jonagain.jpg');
+  background-position: center;
+  
+
+}
+
+/* Menu */
+
+#menu1 {
+
+  opacity: 0.7;
+}
+
+
+/* Contact */
+
+.contact {
+  
+  
+  opacity: 0.7;
+  text-align: center;
+  background-color: #bebebe;
+  background-position: center center;
+  color: #fff;
+
+
+}
+
+.contact p {
+
+  padding-bottom: 80px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact h2 {
+
+  color: white;
+  margin: 20px 0 20px;
+  font-weight: bold;
+}
+
+.contact .input-group {
+
+  margin-bottom: 25px;
+}
+
+.contact .form-control {
+
+  resize: none;
+  outline: none;
+  border-style: none;
+}
+
+.contact span {
+
+  
+}
+
+
+.contact .btn {
+  
+  border-radius: 5px;
+  width: 100%;
+  font-size: 15px;
+  background-color: #4682b4;
+  color: #fff;
+}
+
+.contact .btn:hover {
+
+  background-color: #4169e1 !important;
+  color: #fff !important;
+}
+
+
+/* footer contact */
+
+.footer {
+  opacity: 0.8;
+  padding: 30px;
+  background-color: #bebebe;
+}
+
+
+.footer .social {
+
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 18px;
+  margin-right: 5px;
+}
+
+.footer input {
+  
+  height: 40px;
+  width: 160px;
+  padding: 5px;
+  border: none;
+  background-color: #cccccc;
+  color: #000;
+}
+
+.footer .btn {
+
+  padding: 10px 5px 10px;
+  margin: -3px 0 0 5px;
+
+}
+
+.socialreds {
+
+  text-decoration: none;
+  outline: none;
+}
+
+/* Footer */
+
+#copyright {
+
+  background-color: #bebebe;
+  opacity: 0.7;
+  height: 70px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+
+</style>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/newpractice.js"></script>
+  </body>
+</html>

@@ -13,6 +13,12 @@ body {
 	opacity: 0.7;
 }
 
+.logo {
+
+	width: 200px;
+	padding: 5px;
+}
+
 header {
 	
 	background: url('../img/mainmap.png');

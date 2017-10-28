@@ -1,4 +1,51 @@
-debugger
+/* Formulario de Registro */
+
+function validar() {
+
+	var email, password, cpassword, name, lastname, cellphone, direccion, checkbox, expresion;
+
+	email = document.getElementById('inputEmail').value;
+	password = document.getElementById('inputPassword').value;
+	cpassword = document.getElementById('cpass').value;
+	name = document.getElementById('name').value;
+	lastname = document.getElementById('lastname').value;
+	cellphone = document.getElementById('cellphone').value;
+	direccion = document.getElementById('textarea').value;
+	checkbox = document.getElementById('checkbox').value;
+	expresion = /\w+@\w+\.+[a-z]/;
+
+
+	if (email === "" || password === "" || cpassword === "" || name === "" || lastname === "" || cellphone === "" || direccion === "" || checkbox === "") {
+
+			alert('All the fields are obligatory');
+			return false;
+	} else if (email.length>100) {
+		alert('The email is to long');
+		return false;
+	} else if (!expresion.test(email)) {
+		alert('The email is invalid');
+		return false;
+	} else if (password.length>20 || cpassword.length>20) {
+		alert('The password is to long');
+		return false;
+	} else if (name.length>30 || lastname.length>30) {
+		alert('The name or last name are to long');
+		return false;
+	} else if (cellphone.length>20) {
+		alert('The cellphone is to long');
+		return false;
+	} else if (direccion.length>500) {
+		alert('The addres is wrong');
+		return false;
+	} else if (isNaN(cellphone)) {
+		alert('The field cellphone is wrong');
+		return false;
+	}
+
+
+
+}
+
 /* Formulario Contact */
 function validarFormulario(){
 
@@ -81,9 +128,10 @@ window.onload=function(){
 
 
 
-function enter(){
+function enter(event){
+	event.preventDefault();
 		var name = search.value;
-		search.innerHTML = "";
+
 		console.log(name); 
 
 		   

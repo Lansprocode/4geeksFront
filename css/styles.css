@@ -3,6 +3,12 @@
 	padding: 0;
 }
 
+/* parallax */
+
+
+
+/* Animaciones delay */
+
 .retraso{
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
@@ -49,6 +55,12 @@ body {
 
 #lol:hover{
 	color: white;
+}
+
+.logo {
+
+	width: 200px;
+	padding: 5px;
 }
 
 .searchform {
@@ -114,7 +126,12 @@ body {
 	}
 }
 
-/* Modal */
+/* Modal de Registro*/
+
+.textarea1 {
+	resize: none;
+}
+
 
 
 /* Presentation */

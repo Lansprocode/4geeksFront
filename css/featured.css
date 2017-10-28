@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+
+/* parallax */
+
+.parallax {
+
+  background: url('../img/nightking.jpg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Title */
+
+.cha {
+
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Comic Sans MS', sans-serif
+}
+
+/* Animaciones delay */
+
+.retraso{
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.retraso2{
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.retraso3{
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
+.retraso4{
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	//background: url('../img/wall.jpg');
+	background-color: #f5f5f5;
+	
+}
+
+figcaption {
+
+  font-style: italic;
+}
+
+/* Header 2 */
+
+.header2 {
+
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* menunav */
+
+#menu1 {
+
+  opacity: 0.7;
+}
+
+.logo {
+
+  width: 200px;
+  padding: 5px;
+}
