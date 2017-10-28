@@ -78,6 +78,67 @@ body {
 	font-family: sans-serif;
 }
 
+/* Formulario de Iniciar Sesion */
+
+/* Bordered form */
+.formlogin {
+    border: 2px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+.inputslogin input[type=text], .inputslogin input[type=password] {
+	width: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    
+}
+
+.alineaBtn {
+
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 60%;
+    border-radius: 40%;
+}
+
+/* Add padding to containers */
+.container {
+    
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+
+
+
 /* Boton de Iniciar Sesion */
 
 .botonsignin {
