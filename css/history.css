@@ -42,7 +42,7 @@ body {
 
 /* .title2 */
 
-.title2, .title3, .title4, .title5 {
+.title2, .title3, .title4, .title5, .title6, .title7, .title8, .title9, .title10, .title11, .title12, .title13, .title14, .title15, .title16, .title17, .title18, .title19 {
 
 	text-align: center;
 }
@@ -116,6 +116,142 @@ p {
 	background-repeat: no-repeat;
 	
 }
+
+.imagen7 {
+    background: url('../img/siete.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen9 {
+    background: url('../img/nueve.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen10 {
+    background: url('../img/diez.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen11 {
+    background: url('../img/once.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen12 {
+    background: url('../img/doce.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen13 {
+    background: url('../img/trece.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen14 {
+    background: url('../img/catorce.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen15 {
+    background: url('../img/quince.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+.imagen16 {
+    background: url('../img/dieciseis.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+
+.imagen17 {
+    background: url('../img/diesiciete.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+
+.imagen18 {
+    background: url('../img/diesiocho.jpg');
+	position: relative;
+	opacity: 0.8;
+	background-size: 100%;
+	background-position: center;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+
+
 
 
 
