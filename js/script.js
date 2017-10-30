@@ -25,8 +25,6 @@ window.onload=function(){
 }
 
 
-
-
 function enter(event){
 	event.preventDefault();
 		var name = search.value;
