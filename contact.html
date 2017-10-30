@@ -9,6 +9,7 @@
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.css">
+  <script src="js/scrollreveal.min.js"></script>
 	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/contact.css">
 	<script src="js/snowstorm.js"></script>
@@ -23,7 +24,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</buttom>
-			<a href="index.html" class="navbar-brand logo"><strong class=" retraso animated fadeInDown"><img src="img/gotlogo.png" class="logo" alt=""></strong></a>
+			<a href="index.html" class="navbar-brand logo"><strong class=" retraso4 animated fadeInDown"><img src="img/gotlogo.png" class="logo" alt=""></strong></a>
 		</div>
 		<div class="navbar-collapse collapse"> 
 			<ul class="nav navbar-nav">
@@ -33,29 +34,39 @@
 				<li class="" id="lol"><a href="history.html"><i id="iconcolor"></i><strong>history</strong></a></li>
 				<li class="active" id="lol"><a href="contact.html"><i id="iconcolor"></i><strong>Contact</strong></a></li>
 			</ul>
+      <ul class="nav navbar-right">
+        <div class="radiox">
+          <audio id="demo" src="music/jonstheme.mp3" src="music/jonstheme.ogg" autoplay=""></audio>
+          <div id="play">
+            <label for="music" class=" animated bounceInLeft retraso4 control-label text-center">Music</label>
+            <button class=" animated bounceInLeft retraso3 btn btn-sm btn-success" onclick="document.getElementById('demo').play()">Play</button>
+            <button class=" animated bounceInLeft retraso2 btn btn-sm btn-default" onclick="document.getElementById('demo').pause()">Pause</button>
+          </div>
+        </div>
+      </ul>
 	   </div> 	
 	</nav>
     
-    <div class="bgimg-1">
+    <div class="bgimg-1 jon">
       <div class="caption">
-        <span class="border span1">THE KING IN THE NORTH</span>
+        <span class="king border span1">THE KING IN THE NORTH</span>
       </div>
     </div>
 
     <div class="stylebox1">
-      <h3 class="h3_1">Drogon<small> is one of the three dragons born in the Dothraki Sea</small></h3>
-      <p>Along with Rhaegal and Viserion. He is named after Daenerys's late husband Khal Drogo. He can be distinguished by his black and red colored scales, and red-black wings. He is also Daenerys's personal mount.</p>
+      <h3 class="h3_1">Drogon<small class="small"> is one of the three dragons born in the Dothraki Sea</small></h3>
+      <p class="p1">Along with Rhaegal and Viserion. He is named after Daenerys's late husband Khal Drogo. He can be distinguished by his black and red colored scales, and red-black wings. He is also Daenerys's personal mount.</p>
     </div>
 
     <div class="bgimg-2">
       <div class="caption">
        <div class="border span2">
-          <h4>Stay in touch</h4>
-                 <a target="_blank" href="https://es-la.facebook.com/GameOfThrones/"><i class=" socialreds social fa fa-facebook" aria-hidden="true"></i></a>
-                 <a target="_blank" href="https://twitter.com/gameofthrones"><i class=" socialreds social fa fa-twitter" aria-hidden="true"></i></a>
-                 <a target="_blank" href="https://www.instagram.com/gameofthrones/"><i class=" socialreds social fa fa-instagram" aria-hidden="true"></i></a>
-                 <a target="_blank" href="https://www.youtube.com/user/GameofThrones"><i class=" socialreds social fa fa-youtube" aria-hidden="true"></i></a>
-                 <a target="_blank" href="https://github.com/Lansprocode"><i class=" socialreds social fa fa-github" aria-hidden="true"></i></a>
+          <h4 class="intouch">Stay in touch</h4>
+            <a target="_blank" href="https://es-la.facebook.com/GameOfThrones/"><i class=" adelay1  socialreds social fa fa-facebook" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://twitter.com/gameofthrones"><i class=" adelay2  socialreds social fa fa-twitter" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://www.instagram.com/gameofthrones/"><i class=" adelay3  socialreds social fa fa-instagram" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://www.youtube.com/user/GameofThrones"><i class=" adelay4  socialreds social fa fa-youtube" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://github.com/Lansprocode"><i class=" adelay5  socialreds social fa fa-github" aria-hidden="true"></i></a>
        </div>
       </div>
     </div>
@@ -63,19 +74,19 @@
     <div class="stylebox2">
 
       <div class="stylebox2again">
-        <h4>Subscribe for the last updates!</h3>
+        <h4 class="updates">Subscribe for the last updates!</h3>
         <form action="#" class="" onsubmit="">
 
           <input type="email" placeholder="Email..." class="subscribe1" required="" name="Subscribe">
-          <button type="submit" class="btn btn-default" name="Subscribe">Subscribe</button>
+          <button type="submit" class=" subscribe2 btn btn-default" name="Subscribe">Subscribe</button>
         </form>
       </div>
     </div>
 
     <div class="bgimg-3">
       <div class="caption">
-        <span class="border span3">
-          Twynn Lannister
+        <span class="border span3 remember">
+          The North Remembers
         </span>
       </div>
     </div>
@@ -86,11 +97,11 @@
           <div class="container">
             <div class="row">
                <form action="#" method="get">
-              <h3>Contact</h3>
-               <p><i class="fa fa-home" aria-hidden="true"></i> Maracaibo, Zulia</p>
-              <p><i class="fa fa-envelope" aria-hidden="true"></i>  lansperformance@gmail.com</p>
-              <p><i class="fa fa-phone" aria-hidden="true"></i > +58 414 6707443</p>
-              <p><i class="fa fa-globe" aria-hidden="true"></i> https://github.com/Lansprocode</p>
+              <h3 class="contak">Contact</h3>
+               <p class="fa1"><i class=" fa fa-home" aria-hidden="true"></i> Maracaibo, Zulia</p>
+              <p class="fa2"><i class=" fa fa-envelope" aria-hidden="true"></i>  lansperformance@gmail.com</p>
+              <p class="fa3"><i class=" fa fa-phone" aria-hidden="true"></i > +58 414 6707443</p>
+              <p class="fa4"><i class=" fa fa-globe" aria-hidden="true"></i> https://github.com/Lansprocode</p>
             </form>
             </div>
           </div> 
@@ -98,9 +109,9 @@
       </div>
     </div>
 
-    <div class="bgimg-1">
-      <div class="caption">
-        <span class="border span1">Come Back Soon!</span>
+    <div class="bgimg-4">
+      <div class="caption WinterR">
+        <span class=" winterIs border span4">Winter Is Here..</span>
       </div>
     </div>
   	

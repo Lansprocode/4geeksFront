@@ -17,9 +17,21 @@ body, html {
 	padding: 5px;
 }
 
+/* Reproductor */
+
+.radio {
+
+	padding: 5px;
+}
+
+#play {
+
+	padding-top: 10px;
+}
+
 /* IMAGENES */
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
 
 	position: relative;
 	opacity: 0.8;
@@ -36,12 +48,18 @@ body, html {
 
 .bgimg-2 {
   background-image: url("../img/Rob.jpg");
-  min-height: 400px;
+  min-height: 500px;
 }
 
 .bgimg-3 {
-  background-image: url("../img/twynn.jpg");
-  min-height: 400px;
+  background-image: url("../img/catelyn.jpg");
+  min-height: 500px;
+}
+
+.bgimg-4 {
+  background-image: url("../img/winterishere.jpg");
+  min-height: 700px;
+	background-position: center;
 }
 
 .caption {
@@ -78,6 +96,81 @@ h3 {
 	border-radius: 10px;
 }
 
+.span2{
+
+	background-color: #282e34;
+	text-align: center;
+	padding: 40px 70px;
+	opacity: 0.6;
+	
+}
+
+.span3	{
+
+	background-color: white !important;
+	color: gray !important;
+	opacity: 0.7;
+	border-radius: 10px;
+}
+
+.span4 {
+
+	background-color: white !important;
+	color: gray !important;
+	opacity: 0.7;
+	border-radius: 10px;
+
+}
+
+.WinterR {
+
+	margin-top: 150px;
+}
+
+/* Retrasos */
+
+.retraso{
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.retraso2{
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.retraso3{
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.retraso4{
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.retraso5{
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.retraso6{
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  animation-delay: 6s;
+}
+
+.retraso7{
+  -webkit-animation-delay: 7s;
+  -moz-animation-delay: 7s;
+  animation-delay: 7s;
+}
+
 
 
 
@@ -103,14 +196,7 @@ div .stylebox1 {
 
 /* Segundo div con su imagen y parrafo */
 
-.span2{
 
-	background-color: #282e34;
-	text-align: center;
-	padding: 40px 70px;
-	opacity: 0.6;
-	
-}
 
 /* Despues de la imagen 2  */
 div .stylebox2 {
@@ -151,14 +237,8 @@ h4 {
 	font-size: 25px;
 }
 
-/* 3RA IMGAEN Y SPAN3 */
+/* 3RA IMGAEN */
 
-span .span3	{
-
-	background-color: transparent;
-	font-size: 25px;
-	color: #f7f7f7;
-}
 
 /* stylebox3 */
 
@@ -182,7 +262,9 @@ div .stylebox3again {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
 }
+
+

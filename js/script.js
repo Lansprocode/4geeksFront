@@ -143,6 +143,304 @@ function validar() {
 }
 
 
-/* */
+/*  */
+
+window.sr = ScrollReveal();
+sr.reveal('#menu1', {
+	duration: 3000,
+	origin: 'bottom'
+}),
+
+sr.reveal('.header', {
+	duration: 2000,
+	origin: 'top',
+	distance: '300px'
+});
+sr.reveal('.game-right', {
+	duration: 2000,
+	delay: 2000,
+	origin: 'right',
+	distance: '300px'
+});
+sr.reveal('.carouselle', {
+	duration: 2000,
+	origin: 'right',
+	distance: '300px',
+	viewFactor: 0.2
+
+});
+sr.reveal('.got', {
+	duration: 3000,
+	origin: 'bottom',
+	distance: '300px',
+	viewFactor: 0.2
+
+});
+sr.reveal('.parrafo1', {
+	duration: 3000,
+	origin: 'right',
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+sr.reveal('.parrafo2', {
+	duration: 3000,
+	origin: 'left',
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+sr.reveal('.span1', {
+	duration: 2000,
+	origin: 'bottom',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+sr.reveal('.sansa', {
+	duration: 3000,
+	origin: 'top',
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.cersie', {
+	duration: 3000,
+	origin: 'top',
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.daenerys', {
+	duration: 3000,
+	origin: 'left',
+	delay: 1000,
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.arya', {
+	duration: 3000,
+	delay: 1000,
+	origin: 'right',
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.tituloellas', {
+	duration: 2000,
+	delay: 2000,
+	origin: 'right',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.dragonwolf', {
+	duration: 2000,
+	origin: 'bottom',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.dragonwolf', {
+	duration: 2000,
+	origin: 'bottom',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.KingL', {
+	duration: 2000,
+	origin: 'right',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa1', {
+	duration: 2000,
+	origin: 'left',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa2', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'left',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.BJ', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'right',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa3', {
+	duration: 2000,
+	origin: 'right',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa4', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'right',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.TJ', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'left',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa5', {
+	duration: 2000,
+	origin: 'left',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa6', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'left',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.JD', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'right',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa7', {
+	duration: 2000,
+	origin: 'right',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa8', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'right',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.CB', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'left',
+	distance: '100px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.at', {
+	duration: 2000,
+	origin: 'bottom',
+	distance: '400px',
+	viewFactor: 0.2
+
+});
+
+
+sr.reveal('.pa10', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'left',
+	distance: '400px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa11', {
+	duration: 3000,
+	delay: 1000,
+	origin: 'left',
+	distance: '400px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa12', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'bottom',
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.aryaa', {
+	duration: 2000,
+	origin: 'right',
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.RAL1', {
+	duration: 2000,
+	origin: 'left',
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa13', {
+	duration: 2000,
+	delay: 1000,
+	origin: 'right',
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+
+sr.reveal('.pa14', {
+	duration: 3000,
+	delay: 1000,
+	origin: 'right',
+	distance: '200px',
+	viewFactor: 0.2
+
+});
+
+
+
+
+
 
 

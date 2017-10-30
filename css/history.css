@@ -20,6 +20,42 @@ body {
 	padding: 5px;
 }
 
+
+/* Animaciones delay */
+
+.retraso{
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.retraso2{
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.retraso3{
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
+.retraso4{
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+/* Reproductor */
+
+.radio {
+
+  padding: 5px;
+}
+
+#play {
+
+  padding-top: 10px;
+}
+
 /* Main Header */
 
 .mainheader {

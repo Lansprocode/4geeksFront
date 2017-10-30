@@ -9,13 +9,14 @@
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/scrollreveal.min.js"></script>
 	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="js/snowstorm.js"></script>
 </head>
 <body>
 	
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="menu1">
 	  <div class="container" >
 		<div class="navbar-header" >
@@ -24,7 +25,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</buttom>
-			<a href="index.html" class="navbar-brand logo"><strong class=" retraso animated fadeInDown"><img src="img/gotlogo.png" class="logo" alt=""></strong></a>
+			<a href="index.html" class="navbar-brand logo"><strong class=" retraso2 animated fadeInDown"><img src="img/gotlogo.png" class="logo" alt=""></strong></a>
 		</div>
 		<div class="navbar-collapse collapse"> 
 			<ul class="nav navbar-nav">
@@ -43,19 +44,50 @@
 					</div>
 					
 				</div>
-			 <ul class="nav navbar-nav navbar-right">
-                <button type="button" class="btn btn-info btn-md botonsignin" data-toggle="modal" data-target="#myModal2">Sign Up</button>
-                <button type="button" class="btn btn-info btn-md botonsignin" data-toggle="modal" data-target="#myModal1">Sign In</button>
-	            </ul>
+					 <ul class="nav navbar-nav navbar-right">
+		                <button type="button" class=" animated bounceInRight retraso2 btn btn-info btn-md botonsignin" data-toggle="modal" data-target="#myModal2">Sign Up
+		                </button>
+		                <button type="button" class=" animated bounceInRight retraso3  btn btn-info btn-md botonsignin" data-toggle="modal" data-target="#myModal1">Sign In
+		                </button>
+			         </ul>
+						
+			         <ul class="nav navbar-right">
+				        <div class=" animated bounceInLeft retraso3  radiox">
+				          <audio id="demo" src="music/title.mp3" src="music/title.ogg" autoplay=""></audio>
+				          	<div id="play">
+				            <label for="music" class="music control-label text-center">Music</label>
+				            <button class="btn btn-sm btn-success" onclick="document.getElementById('demo').play()">Play</button>
+				            <button class="btn btn-sm btn-default" onclick="document.getElementById('demo').pause()">Pause</button>
+				       		</div>
+		        		</div>
+      				</ul>
 			  </div>
 		   </div> 	
 		</nav>  <!-- End Nav -->
 
-		<div class="parallax">
-			
+		<div class="header" id="game">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="game-left"></div>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="game-right">
+							<img class="imgR1" src="img/biglogo.png" width="600" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 
+
+
+
+
+
+
+			<!-- ================= MODALES DE INICIO DE SESION Y REGISTR ===================  -->
 			<!-- Modal Sign In -->
 			<div id="myModal1" class="modal fade col-lg-12 col-md-12 col-sm-12 col-xs-12" role="dialog">
 			  <div class="modal-dialog">
@@ -227,8 +259,20 @@
 			  </div>
 			</div> <!-- End modal sign up -->
 
-			
-			<div class="animated slideInRight">
+			<!-- ================= MODALES DE INICIO DE SESION Y REGISTR ===================  -->
+
+
+
+
+
+
+				
+
+
+					
+
+				<!-- Carousel -->
+			<div class="carouselle">
 			<div class="myCarousel1">
 			 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 			 	<!-- Indicators -->
@@ -304,45 +348,44 @@
 
 
 			<!-- Modal Comments -->
-		<div class="modalone">
-			<div class="container">
-				<div class="row">
-				<div id="myModal" class="modal fade" role="dialog">
-				  <div class="modal-dialog">
-				    <!-- Modal content-->
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal">&times;</button>
-				        <h4 class="modal-title" id="lol"></h4>
-				      </div>
-				      <div class="modal-body">
-				        <div class="showname">
-							<p class="shownamee">
-							</p>
-						</div>
-				      </div>
-				      <div class="modal-footer">
-				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				      </div>
-				    </div>
-		  			</div>
+			<div class="modalone">
+				<div class="container">
+					<div class="row">
+					<div id="myModal" class="modal fade" role="dialog">
+					  <div class="modal-dialog">
+					    <!-- Modal content-->
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <button type="button" class="close" data-dismiss="modal">&times;</button>
+					        <h4 class="modal-title" id="lol"></h4>
+					      </div>
+					      <div class="modal-body">
+					        <div class="showname">
+								<p class="shownamee">
+								</p>
+							</div>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+			  			</div>
+					</div>
+					</div>
 				</div>
-				</div>
-			</div>
-		</div> <!-- End modal comments -->
+			</div> 
+			<!-- End modal comments -->
 
-		<br>
-		<br>
 		<div class="presentation">
 			<div class="container">
 				<div class="row">
-					<h1 class="retraso animated fadeInDown">Game Of Thrones</h1>
+					<h1 class="got">Game Of Thrones</h1>
 					<div class="parrafo1">
 						<p>
 							Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss. It is an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels, the first of which is A Game of Thrones. It is filmed in Belfast and elsewhere in the United Kingdom, Canada, Croatia, Iceland, Malta, Morocco, Spain, and the United States. The series premiered on HBO in the United States on April 17, 2011, and its seventh season ended on August 27, 2017. The series will conclude with its eighth season premiering either in 2018 or 2019
 						</p>
 						<br>
-						<p>
+						<p class="parrafo2">
 							Set on the fictional continents of Westeros and Essos, Game of Thrones has several plot lines and a large ensemble cast but centers on three primary story arcs. The first story arc centers on the Iron Throne of the Seven Kingdoms and follows a web of alliances and conflicts among the dynastic noble families either vying to claim the throne or fighting for independence from the throne. The second story arc focuses on the last descendant of the realm's deposed ruling dynasty, exiled and plotting a return to the throne. The third story arc centers on the longstanding brotherhood charged with defending the realm against the ancient threats of the fierce peoples and legendary creatures that lie far north, and an impending winter that threatens the realm.
 						</p>
 					</div>
@@ -350,36 +393,246 @@
 			</div>
 		</div>
 
-		 
+		<div class="bgimg-1">
+	      <div class="caption">
+	        <span class="border span1">Let's Play...</span>
+	      </div>
+    	</div>
+			<br>
+
+			<!-- Seccion de ellas -->
+    	<section class="mainfotos">
+    		<div class="container-fluid">
+    			<div class="row">
+    				<h3 class="tituloellas">When you play the game of thrones, you win or you die. There is no middle ground.</h3>
+    				<div class="daenerys col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    					<div class="">
+    						<img width="300" src="img/danyqueen.png" alt="">
+    					</div>
+    				</div>
+    				<div class="sansa col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    					<div class="img2">
+    						<img width="297" src="profiles/sansa.jpg" alt="">
+    					</div>
+    				</div>
+    				<div class=" cersie col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    					<div class="img3">
+    						<img width="300"" src="profiles/cersie2.png" alt="">
+    					</div>
+    				</div>
+    				<div class=" arya col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    					<div class="img4">
+    						<img width="300" src="profiles/arya.jpg" alt="">
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</section> <!-- Finaliza Seccion de ellas -->
+		<br>
+
+		<!-- Partes del Ultimo episodio Season 7 -->
+		<section class="parts">
+			<div class="container">
+				<div class="row">
+						<h2 class="dragonwolf">The Dragon and The Wolf</h2>
+					<div class="part1">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<h4 class="KingL">In King's Landing</h4>
+							<p class="pa1">
+								The Unsullied, led by a grim-faced Grey Worm, line up in tight formation outside the walls of King's Landing. On the walls, Jaime Lannister and Bronn discuss how the latter is unnerved by the idea of soldiers without genitalia, as he's been around enough soldiers to know why they fight, and that the idea of soldiers who fight for no promise of sex is alien to him. As they talk, hordes of Dothraki ride in, a stark contrast to the disiplined Unsullied; but the two ancient enemies are united in cause today.
+							</p>
+							<br>
+							<p class="pa2">
+								At the harbor, Tyrion Lannister, Varys, Missandei, Jon Snow and Davos Seaworth nervously sail past Euron Greyjoy's fleet. Sandor Clegane goes below decks to check on their "guest", who is thankfully just as riled up as ever.
+							</p>
+						</div>
+						<div class=" BJ col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<img class="imgpabajo" src="img/bronnjaime.jpg" width="500" alt="">
+						</div>
+					</div>
+				</div>
+					<br>
+				<div class="row">
+					<div class="part2">
+						<div class=" TJ col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<img class="imgpabajo" src="img/tyrionjon.jpg" width="500" alt="">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<p class="pa2">
+								Getting the meeting on track, Tyrion, Daenerys, and Jon try to warn Cersei of the greater threat coming for them all, but she dismisses it as a ploy to trick her into lowering her defenses. To prove their claims, Sandor returns with the crate containing the wight, which is worryingly silent. Sandor gets the crate open, but there is still no movement. He finally gives the crate a massive kick, which prompts the enraged wight to launch itself out and charge toward the nearest target - Cersei, appropriately enough. Visibly horrified, the Lannister queen and her allies recoil in horror as Sandor pulls the wight back on a chain, its claws inches from Cersei's face, and manages to slice the creature in half when it turns to attack him. The assembled look on in shock as the wight's upper half still moves around. Jon steps forward and picks up the wight's discarded hand, using a torch provided by Davos to demonstrate how fire can be used to stop them.
+							</p>
+							<br>
+							<p class="pa4">
+								He then uses a dragonglass dagger to the heart to end the wight's upper half, bluntly stating that if they don't win the coming war, such a fate awaits every person in Westeros. A horror-struck Jaime asks how many wights are coming, and Daenerys tells him the army of the dead numbers at least 100,000. Euron asks if the wights can swim. When Jon responds, "No," Euron announces to Cersei his intention to withdraw the Iron Fleet back to the Iron Isles. He declares that he has been over the whole world and has never been terrified until now. On his way out, he tells Daenerys to retreat to her island while he returns to his own, and to come find him when they are the only two left alive.
+							</p>
+						</div>
+					</div>
+				</div>
+			
+					<br>
+
+				<div class="row">
+					<div class="part3">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<p class="pa5">
+								In the Red Keep, Tyrion, escorted by Ser Gregor, meets Jaime, who confirms that he believes the threat of the Dead, but has been unable to convince Cersei. Tyrion enters Cersei's office, and the two trade savage barbs, Cersei blames his murder of Tywin for the series of events that led to her younger children's deaths and the destruction of House Lannister's future. Tyrion maintains that he loved Myrcella Baratheon and Tommen Baratheon almost as much as Cersei and that he regrets what happened to them. He attempts to call Cersei's bluff, claiming that if Cersei genuinely blamed him for their deaths, then Gregor should just kill him right then and there. A tense moment passes... in which Cersei does not give the order. Relieved, Tyrion heads straight for the wine. They continue their discussion until Tyrion realizes that Cersei is pregnant.
+							</p>
+							<br>
+							<p class="pa6">
+							    Back at the Dragonpit, Daenerys and Jon discuss the dragons and how her ancestors caged them, and in turn become less impressive as the power of the dragons waned. Jon questions Daenerys's assertion of infertility, particularly when she admits that she never got an informed opinion about her condition from anyone except Mirri Maz Duur herself. Their conversation is interrupted by the return of all three Lannisters. Cersei has agreed to work with Daenerys, but not by keeping her troops back: the Lannister army will march north to fight alongside the Starks and Targaryens.
+							</p>
+						</div>
+						<div class=" JD col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<img class="imgpabajo" src="img/jonanddany.jpg" width="500" alt="">
+						</div>
+					</div>
+				</div>
+					<br>
+				<div class="row">
+					<div class="part4">
+						<div class=" CB col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<img class="imgpabajo" src="img/cersieblack.jpg" width="500" alt="">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<p class="pa7">
+								After the enemy delegation has left, an eager and relieved Jaime meets with his commanders to discuss the logistics of moving the army north. Cersei enters the map room and asks what he is doing. Dismissing the commanders, she tells Jaime he really is the stupidest Lannister. Shocked, Jaime listens as Cersei explains that Euron has not abandoned her, but has gone to Essos to ferry the Golden Company back to Westeros. She intentionally leaked her pregnancy to Tyrion so he would believe her, and now she intends to allow their enemies to exhaust themselves against the Army of the Dead, then have the Golden Company clean up what's left of whoever wins in the North. Jaime is furious that his sister and Euron plotted this behind his back, but Cersei angrily accuses him of plotting with Tyrion in favor of her enemies. Reeling from the accusation, Jaime incredulously reminds her that whoever wins the conflict in the North will turn their attention south afterwards; either the White Walkers will march south to kill them, or the Starks and Targaryens will come seeking revenge over the fact Cersei betrayed and left them (and essentially all of Westeros) to die, but Cersei is indifferent. Finally seeing his sister for the power-mad narcissist she truly is, Jaime disgustedly declares that he, at least, will fight to honour the pledge he made. When he tries to leave, he finds his way blocked by Ser Gregor. Cersei furiously insists that she will kill him as a traitor if he tries to leave, but Jaime calls her bluff and storms out, and Cersei does not give the order.
+							</p>
+							<br>
+							<p class="pa8">
+								Alone, Jaime rides out of King's Landing. Realizing how conspicuous he is, he nervously pulls a glove over his golden hand. Surprised by the sudden appearance of a drop of water on the glove, Jaime looks up and sees a blanket of snow descending upon King's Landing. As Jaime rides away, the snow begins to cover everything; the streets, the houses, the ruins where the Great Sept once stood, the little skulls in the Dragonpit and even Cersei's map in the Red Keep.
+								Winter has come at last for the south.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+					<div class="bgimg-2">
+				      <div class="caption">
+				        <span class="at border span2">At Winterfell</span>
+				      </div>
+			    	</div>
+		<section class="parts2">
+			<div class="container">
+				<div class="row">
+					<div class="part5">
+						<br>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<p class="pa10">
+								Sansa Stark discusses the potential threat of her sister Arya Stark with Petyr Baelish. Baelish tries to manipulate her as usual, encouraging her to think as he does. He tells Sansa to ask herself what Arya's worst possible motivation is. Seemingly overcome with horror at the thought that Arya would want to take her place and reign as Lady of Winterfell, it seems that Sansa decides to do something about it, to Baelish's quiet delight.
+							</p>
+							<br>
+							<p class="pa11">
+								After a long time reflecting on her course of action on the battlements, Sansa orders Arya be brought to the great hall. In the Hall, Sansa and Bran are seated at the great table, the hall lined with Stark and Arryn men and a few key lords such as Yohn Royce and, of course, Baelish. Arya is brought in and asks Sansa if she "really wants to do this". Sansa replies it's not about what she wants, it's about justice, and them proceeds to rattle off a list of crimes perpetuated against House Stark... and asks Baelish how he intends to answer the charges. At this, all eyes turn towards Baelish. Thrown, Littlefinger tries to figure out what is going on. Sansa reveals his murder of Lysa Arryn and his use of Lysa to murder Jon Arryn. She uses his own words against him and accuses him (quite correctly) of orchestrating the conflict between the Starks and the Lannisters that has ultimately engulfed the Seven Kingdoms for the better part of the last decade, including the betrayal and death of her father Eddard Stark.
+							</p>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<img class="aryaa" class="imgpabajo" src="img/Arya2.jpg" width="500" alt="">
+						</div>
+					</div>
+
+				</div>
+					<br>
+				<div class="row">
+					<div class="part6">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p class="pa12">
+								On the battlements, Sansa and Arya discuss Littlefinger's plots and how much they, as people, have changed. Arya tells Sansa that she wouldn't have been able to survive what Sansa did, although her sister disagrees, saying Arya is the strongest person she knows. The sisters muse on another of their father's stories, about how lone wolves die in the winter, but wolf packs survive, and realize the truth of his words as the Starks have at last been reunited.
+							</p>
+						</div>
+					</div>
+				</div>
+
+					<br>
+
+				<div class="row">
+					<div class="part7">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<img class="RAL1" class="imgpabajo" src="img/RhaegarandLyanna.jpg" width="500" alt="">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<p class="pa13">
+								Some time later, Samwell Tarly and Gilly arrive at Winterfell. Upon hearing that Bran is back, Sam calls on him, recalling their meeting at the Nightfort some years earlier. Bran is glad to see Sam, but is surprised to find him here. When Sam reiterates his loyalty to Jon, Bran, unable to keep it a secret any longer, reveals the truth of Jon's origins: he was born to Rhaegar Targaryen and Lyanna Stark at a Tower in Dorne, and is not a Snow at all, but a Sand. Sam realizes that that isn't true either, recalling the entry from High Septon Maynard's private journal about annulling Rhaegar's marriage. Bran expressed his doubts, but Sam reiterates the private nature of the journal and encourages Bran to use Greensight to confirm it.
+							</p>
+							<br>
+							<p class="pa14">
+								To his own surprise, Bran easily finds the wedding, where he sees a clearly happy Lyanna wedding Rhaegar in a Faith of the Seven ceremony before a Heart tree. Warging forward to the Tower of Joy, Bran finally hears Lyanna's dying words. Now piecing the truth together, Bran declares that Rhaegar never raped Lyanna. She loved him and ran off with him, and bore him a son: Aegon Targaryen. His voice breaks a little as he realizes that Robert's Rebellion, the deaths of his grandfather and uncle, and the entire reign of House Baratheon of King's Landing was all for nothing and built on a lie.
+							</p>
+						</div>
+						</div>
+				</div>
+			</div>
+		</section>
+		
+		<div class="bgimg-3">
+			 <div class="caption">
+				<a href="" class="enlacejon" data-toggle="modal" data-target="#myModal1"><span class="border span2" >The Truth</span></a>
+			 </div>
+		</div>
 
 
 
 
 
 
+
+    	<!-- Seccion de Jon
+    	<section class="verdad">
+    		<div class="container">
+    			<div class="row">
+    				<div class="jonsnow col-md-6 col-lg-6 col-sm-12 col-xs-12">
+    					<img src="img/jongame.jpg" width="600" alt="">
+    				</div>
+    				<div class="verdad2 col-md-6 col-lg-6 col-sm-12 col-xs-12">
+    					
+    				</div>
+    			</div>
+    		</div>
+
+    		<button type="button" class=" border span2 animated bounceInRight retraso3  btn btn-info btn-md botonsignin" data-toggle="modal" data-target="#myModal1">The Truth
+		        </button>
+    	</section> -->
+
+
+
+			
+
+
+
+
+
+
+
+		<!-- You how the beta is 
+		<section id="info1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="info-left">
+							<img src="img/cersieee.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="info-right">
+							<h2>Cersie Lannister</h2>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aliquam error unde dolore mollitia aspernatur numquam. Magnam, corrupti! Numquam eum iste, possimus eveniet earum laborum maxime molestias voluptate voluptatibus rerum.
+							</p>
+							<br>
+							<a href="" class="btn btn-default btn-lg">Ver</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
 
 
 		<div class="footer">
-			
-			<div class="container">
-				<div class="radio">
-					<audio controls>
-					  <source src="audio.ogg" type="audio/ogg">
-					  <source src="audio.mp3" type="audio/mpeg">
-						Your browser does not support the audio element.
-					</audio>
-				</div>
-			</div>
-
 		 <div id="copyright">
 			<p>&copy; Copyright Supereight Studio Ltd. 2016-2017. · All rights reserved. Registered in Venezuela · Agency piso 4</p>
 		 </div>
 		</div>
-        
-		
-		<!--<EMBED SRC="music.mp3" AUTOSTART=true LOOP=true VOLUME="80" WIDTH="0" HEIGHT="0">-->
-
-	
+       
 	 
 	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
